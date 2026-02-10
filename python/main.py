@@ -5,7 +5,8 @@
 # ]
 # ///
 
-import matplotlib as plt
+import matplotlib
 
 print("Hello world")
-print(plt.__version__)
+print(matplotlib.__version__)
+
