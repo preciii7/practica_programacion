@@ -1,1 +1,4 @@
 *.accdb
+*.sql
+docker-compose.yml
+Contraseñas.txt
