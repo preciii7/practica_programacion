@@ -2,3 +2,4 @@
 *.sql
 docker-compose.yml
 Contraseñas.txt
+credenciales_mysql.env
