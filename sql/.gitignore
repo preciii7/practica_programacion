@@ -1,4 +1,4 @@
 *.accdb
 *.sql
-docker-compose.yml
-credenciales_mysql.env
+*.yml
+*.env
