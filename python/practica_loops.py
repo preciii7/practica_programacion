@@ -57,5 +57,12 @@ Nivel 2
 print("#################################################")
 print("Imprime los números del 1 al 30, pero: SI el número es múltiplo de 3, imprime Fizz SI es múltiplo de 5, imprime Buzz SI es múltiplo de ambos, imprime FizzBuzz")
 print("#################################################")
-ls = [i for i in range(1,31)]
+
+for i in range(1,31):
+    if i%3 == 0 and i%5==0:
+        print("FizzBuzz")
+    elif i %3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
 
