@@ -65,4 +65,14 @@ for i in range(1,31):
         print("Fizz")
     elif i % 5 == 0:
         print("Buzz")
+print("##########################################################")
+print("Recorre una lista de números y cuenta cuántos son positivos.")
+print("########################################################### ")
+ls = [1,-1,2,-4]
+c=0
+for i in ls:
+    if i>0:
+        c+=1
+print(c)
+
 
