@@ -75,4 +75,12 @@ for i in ls:
         c+=1
 print(c)
 
-
+print("##########################################################")
+print("Recorre una lista de números y encuentra el mayor")
+print("########################################################### ")
+ls = [1,-1,2,-4]
+c=min(ls)
+for i in ls:
+    if i>c:
+        c=i
+print(c)
