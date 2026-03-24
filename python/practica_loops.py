@@ -84,3 +84,70 @@ for i in ls:
     if i>c:
         c=i
 print(c)
+
+print("##########################################################")
+print("Recorre una lista de números y encuentra el menor")
+print("########################################################### ")
+c = 0
+for i in ls:
+    if i < c:
+        c=i
+print(c)
+
+print("##########################################################")
+print("Dada una palabra, cuenta cuántas vocales tiene")
+print("########################################################### ")
+
+insertar = "murcielago"
+c = 0
+for i in insertar:
+    if i == "a" or i == "e" or i == "i" or i == "o" or i == "u":
+        c+=1
+print(c)
+
+"""
+Nivel 3
+"""
+print("########################################################### ")
+print("Dada una lista de números, calcula la suma total sin usar sum().")
+print("########################################################### ")
+
+ls = [1,2,3]
+c=0
+for i in ls:
+    c+=i
+print(c)
+
+print("########################################################### ")
+print("#Cuenta cuántas veces aparece un número específico en una lista.")
+print("########################################################### ")
+ls = [1,2,1,2,1,3,2,3,3,2,1,1]
+k = {}
+for i in set(ls):
+  c = 0
+  for j in range(len(ls)):
+    if i == ls[j]:
+      c+=1
+  k[i]=c
+
+print(k)     
+
+print("########################################################### ")
+print("#Dada una lista de palabras, imprime solo las palabras con más de 5 letras.")
+print("########################################################### ") 
+ls = ["hola", "soy", "eres", "estar", "estrella"]
+for i in ls:
+    if len(i) >5:
+        print(i)
+
+#otra manera de hacerlo
+c=0
+ls1=[]
+for i in range(len(ls)):
+    c=0
+    for j in ls[i]:
+        c+=1
+    if c>5:
+        print(i)
+
+         
