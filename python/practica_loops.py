@@ -150,4 +150,13 @@ for i in range(len(ls)):
     if c>5:
         print(i)
 
-         
+print("###########################################################")
+print("#Pide números al usuario hasta que escriba 0. Luego muestra la suma de todos los números ingresados.")
+print("###########################################################")
+st = input("Inserte numeros: ")
+st = list(st)
+c = 0
+for i in st:
+    c+=int(i)
+print(c)
+
