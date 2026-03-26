@@ -160,3 +160,18 @@ for i in st:
     c+=int(i)
 print(c)
 
+print("###########################################################")
+print("#Dada una lista de números, encuentra el segundo mayor.")
+print("###########################################################")
+
+ls = [10,2,9,4,5,6,7,8,9,1]
+c=0
+k=0
+for i in ls:
+    if i > c:
+        c=i
+    elif i>k and c>k:
+        k = i
+print(k)
+
+
