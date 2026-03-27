@@ -174,4 +174,20 @@ for i in ls:
         k = i
 print(k)
 
+print("###########################################################")
+print("#Invierte una palabra usando un loop.")
+print("###########################################################")
 
+st = list(input("Entra palabra para invertir: "))
+
+def invertir_str(st1: str)->str:
+    arr = []
+    c = ""
+    for i in range(len(st)):
+        arr.append(st[len(st)-i-1])
+        
+    for i in arr:
+        c+=i
+    print(c)
+
+invertir_str(st)  
