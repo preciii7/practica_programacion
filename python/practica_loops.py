@@ -191,3 +191,14 @@ def invertir_str(st1: str)->str:
     print(c)
 
 invertir_str(st)  
+
+print("###########################################################")
+print("#Verifica si una palabra es palíndroma usando loops.")
+print("###########################################################")
+
+st = "anilina"
+c = False
+for i in range(len(st)):
+    if st[i] == st[len(st)-i-1]:
+        c = True    
+print(c)
