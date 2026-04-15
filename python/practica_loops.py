@@ -202,3 +202,5 @@ for i in range(len(st)):
     if st[i] == st[len(st)-i-1]:
         c = True    
 print(c)
+
+        
